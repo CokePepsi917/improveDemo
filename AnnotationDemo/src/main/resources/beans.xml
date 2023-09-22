@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--包扫描, 只要标注了@Controller, @Service, @Repository, @Component 就会被自动扫描加入进容器-->
+    <context:component-scan base-package="com.cokepepsi"></context:component-scan>
+        <!--禁用默认过滤, 才能使用includeFilters-->
+    <!--<context:component-scan base-package="com.cokepepsi" use-default-filters="false"></context:component-scan>-->
+    <bean id="person" class="com.cokepepsi.bean.Person" scope="singleton">
+        <property name="age" value="18"></property>
+        <property name="name" value="zhangsan"></property>
+    </bean>
+</beans>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ActivitiDemo" />
+        <module name="QueryDslDemo" />
+        <module name="AnnotationDemo" />
+        <module name="EventBusDemo" />
+        <module name="RocketMQDemo" />
+        <module name="jetCacheDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ActivitiDemo" target="1.8" />
+      <module name="AnnotationDemo" target="1.8" />
+      <module name="EventBusDemo" target="1.8" />
+      <module name="improveDemo" target="1.8" />
+      <module name="jetCacheDemo" target="1.8" />
+      <module name="QueryDslDemo" target="1.8" />
+      <module name="RocketMQDemo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ActivitiDemo" options="" />
+      <module name="AnnotationDemo" options="-parameters" />
+      <module name="EventBusDemo" options="" />
+      <module name="QueryDslDemo" options="" />
+      <module name="RocketMQDemo" options="-parameters" />
+      <module name="jetCacheDemo" options="" />
+    </option>
+  </component>
+</project>

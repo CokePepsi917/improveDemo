@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c249d26-98f8-42c3-bca4-7acc19d09f56" name="Changes" comment="[added] &quot;improveDemo&quot; Initial commit">
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/config/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/model/po/DepartmentPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/model/po/RolePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/model/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/test/java/com/cokepepsi/querydsldemo/jpatest/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo" beforeDir="false" afterPath="$PROJECT_DIR$/AnnotationDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDslDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/QueryDslDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/QueryDslDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketMQDemo" beforeDir="false" afterPath="$PROJECT_DIR$/RocketMQDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$/ActivitiDemo" value="master" />
+        <entry key="$PROJECT_DIR$/AnnotationDemo" value="master" />
+        <entry key="$PROJECT_DIR$/EventBusDemo" value="master" />
+        <entry key="$PROJECT_DIR$/QueryDslDemo" value="master" />
+        <entry key="$PROJECT_DIR$/RocketMQDemo" value="master" />
+        <entry key="$PROJECT_DIR$/jetCacheDemo" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AnnotationDemo" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695205327" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695205316" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="dev-improve" />
+                    <option name="lastUsedInstant" value="1695203556" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/AnnotationDemo" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695286635" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695286634" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/EventBusDemo" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695286762" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695286761" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/jetCacheDemo" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695286855" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695286854" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/RocketMQDemo" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695286914" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695286913" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695352442" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695352441" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/QueryDslDemo" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695352449" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695352448" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/ActivitiDemo" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VdrbsbwmuI8j4ew1blnYO93ZoH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/improveDemo/RocketMQDemo",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15722656",
+    "project.structure.side.proportion": "0.26945412",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "d321ea97af1475a96df766fa1e39fdae"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cokepepsi.querydsldemo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cokepepsi.bean" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.JpaTest.testJpaRepository">
+    <configuration name="ChangeItemEventTest.testChangeItemEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EventBusDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cokepepsi.eventbusdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cokepepsi.eventbusdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.eventbusdemo.ChangeItemEventTest" />
+      <option name="METHOD_NAME" value="testChangeItemEvent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnnotationDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cokepepsi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cokepepsi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.test.IOCTest" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueryDslDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cokepepsi.querydsldemo.jpatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cokepepsi.querydsldemo.jpatest" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.querydsldemo.jpatest.JpaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTest.testJpaRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueryDslDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cokepepsi.querydsldemo.jpatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cokepepsi.querydsldemo.jpatest" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.querydsldemo.jpatest.JpaTest" />
+      <option name="METHOD_NAME" value="testJpaRepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ActivitiDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.activitidemo.ActivitiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="AnnotationDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.annotation.AnnotationDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventBusDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="EventBusDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.eventbusdemo.EventBusDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JetCacheDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jetCacheDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.jetcachedemo.JetCacheDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryDslDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="QueryDslDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.querydsldemo.QueryDslDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketMqDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RocketMQDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.rocketmqdemo.RocketMqDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JpaTest.testJpaRepository" />
+        <item itemvalue="JUnit.JpaTest" />
+        <item itemvalue="JUnit.IOCTest.test04" />
+        <item itemvalue="JUnit.ChangeItemEventTest.testChangeItemEvent" />
+        <item itemvalue="JUnit.ChangeItemEventTest.testChangeItemEvent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c249d26-98f8-42c3-bca4-7acc19d09f56" name="Changes" comment="" />
+      <created>1695176872496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695176872496</updated>
+      <workItem from="1695176873689" duration="1368000" />
+      <workItem from="1695178337747" duration="187000" />
+      <workItem from="1695189567130" duration="7586000" />
+      <workItem from="1695202774395" duration="2338000" />
+      <workItem from="1695205635668" duration="155000" />
+      <workItem from="1695256513015" duration="194000" />
+      <workItem from="1695256712969" duration="67000" />
+      <workItem from="1695256783438" duration="1114000" />
+      <workItem from="1695283224742" duration="197000" />
+      <workItem from="1695283427568" duration="1379000" />
+      <workItem from="1695286752562" duration="174000" />
+      <workItem from="1695288219824" duration="2756000" />
+      <workItem from="1695296886699" duration="4792000" />
+      <workItem from="1695302227540" duration="185000" />
+      <workItem from="1695352087409" duration="10201000" />
+    </task>
+    <task id="LOCAL-00001" summary="[added] &quot;RocketMQDemo&quot; Initial commit">
+      <created>1695286839042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695286839042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[added] &quot;improveDemo&quot; Initial commit">
+      <created>1695286902539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695286902539</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[added] &quot;improveDemo&quot; Initial commit">
+      <created>1695302398361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695302398361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="improveDemo" />
+    </ignored-roots>
+    <MESSAGE value="[added] &quot;RocketMQDemo&quot; Initial commit" />
+    <MESSAGE value="[added] &quot;improveDemo&quot; Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="[added] &quot;improveDemo&quot; Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EventBusDemo/src/main/java/com/cokepepsi/eventbusdemo/event/ChangeItemEventListener.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EventBusDemo/src/main/java/com/cokepepsi/eventbusdemo/event/ChangeItemEventListener.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EventBusDemo/src/test/java/com/cokepepsi/eventbusdemo/ChangeItemEventTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EventBusDemo/src/test/java/com/cokepepsi/eventbusdemo/ChangeItemEventTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.core.type.StandardAnnotationMetadata" memberName="mergedAnnotations" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
