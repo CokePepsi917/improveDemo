@@ -1,12 +1,14 @@
 package com.cokepepsi.config;
 
 import com.cokepepsi.bean.Color;
+import com.cokepepsi.bean.ColorFactoryBean;
 import com.cokepepsi.bean.Person;
 import com.cokepepsi.bean.Red;
 import com.cokepepsi.condition.LinuxCondition;
 import com.cokepepsi.condition.MyImportBeanDefinitionRegistrar;
 import com.cokepepsi.condition.MyImportSelector;
 import com.cokepepsi.condition.WindowsCondition;
+import org.springframework.beans.factory.FactoryBean;
 import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Component;
 
@@ -63,6 +65,12 @@ public class MainConfig2 {
     }
 
 
+    @Bean
+    public ColorFactoryBean colorFactoryBean() {
+        return new ColorFactoryBean();
+    }
+
+
     /**
      * 给容器中注册组件
      * 1).包扫描 + 组件标注注解(@Controller/@Service/@Repository/@Component)
@@ -71,5 +79,9 @@ public class MainConfig2 {
      *      ①.@Import(要导入到容器的组件);容器中就会自动注册这个组件,id默认是全类名
      *      ②.ImportSelector:返回需要导入的组件的全类名
      *      ③.ImportBeanDefinitionRegistrar:手动注册到bean容器中
+     * 4).使用Spring提供的FactoryBean(工厂Bean)
+     *      ①.默认获取到的是工厂Bean调用getObject创建的对象
+     *      ②.要获取工厂Bean的本身,需要给id前面加一个&
+     *          如:"&colorFactoryBean"
      */
 }

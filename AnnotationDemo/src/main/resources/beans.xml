@@ -8,7 +8,7 @@
     <context:component-scan base-package="com.cokepepsi"></context:component-scan>
         <!--禁用默认过滤, 才能使用includeFilters-->
     <!--<context:component-scan base-package="com.cokepepsi" use-default-filters="false"></context:component-scan>-->
-    <bean id="person" class="com.cokepepsi.bean.Person" scope="singleton">
+    <bean id="person" class="com.cokepepsi.bean.Person" scope="singleton" init-method="getAge" destroy-method="getAge">
         <property name="age" value="18"></property>
         <property name="name" value="zhangsan"></property>
     </bean>
