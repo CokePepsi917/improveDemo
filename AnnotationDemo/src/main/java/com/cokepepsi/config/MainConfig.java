@@ -6,6 +6,7 @@ package com.cokepepsi.config;
  */
 
 import com.cokepepsi.bean.Person;
+import com.cokepepsi.bean.User;
 import com.cokepepsi.service.BookService;
 import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Controller;
@@ -37,5 +38,11 @@ public class MainConfig {
     @Bean(value = "person") //指定Bean在容器中的名字
     public Person person01() {
         return new Person("lisi", 20);
+    }
+
+
+    @Bean
+    public User user() {
+        return new User();
     }
 }

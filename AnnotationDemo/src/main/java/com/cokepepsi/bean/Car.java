@@ -1,11 +1,13 @@
 package com.cokepepsi.bean;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
 /**
  * @author CokePepsi
  * @date 2023/9/25 19:40
  */
-
-
+@Component
 public class Car {
     public Car() {
         System.out.println("构造方法 car constructor...");

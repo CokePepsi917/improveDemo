@@ -1,5 +1,8 @@
 package com.cokepepsi.bean;
 
+import org.springframework.beans.BeansException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -10,7 +13,11 @@ import javax.annotation.PreDestroy;
  * @date 2023/9/25 20:24
  */
 @Component
-public class Dog {
+public class Dog implements ApplicationContextAware {
+
+    private ApplicationContext applicationContext;
+
+
     public Dog() {
         System.out.println("dog constructor....");
     }
@@ -26,5 +33,10 @@ public class Dog {
     @PreDestroy
     public void destroy() {
         System.out.println("Dog...@PreDestroy");
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        this.applicationContext = applicationContext;
     }
 }
