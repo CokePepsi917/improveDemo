@@ -18,6 +18,9 @@
         <module>RocketMQDemo</module>
         <module>ActivitiDemo</module>
         <module>QueryDslDemo</module>
+        <module>StreamSource</module>
+        <module>StreamSink</module>
+        <module>EasyExcelDemo</module>
     </modules>
     <properties>
         <springfox.version>2.9.2</springfox.version>

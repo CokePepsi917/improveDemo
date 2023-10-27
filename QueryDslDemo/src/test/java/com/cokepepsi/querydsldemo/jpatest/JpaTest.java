@@ -30,6 +30,12 @@ public class JpaTest {
         System.out.println(save);
     }
 
+
+    @Test
+    public void testDate() {
+        Date date = new Date();
+        System.out.println(date);
+    }
     @Resource
     UserRepository userRepository;
 }

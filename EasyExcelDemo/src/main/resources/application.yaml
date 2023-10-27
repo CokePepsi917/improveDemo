@@ -1,0 +1,6 @@
+com:
+  cokepepsi:
+    easyexceldemo:
+      listenerClasses:
+        - com.cokepepsi.easyexceldemo.DemoDataListener
+        - com.cokepepsi.easyexceldemo.ExcelListener

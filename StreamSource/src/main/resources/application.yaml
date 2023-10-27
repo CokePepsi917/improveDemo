@@ -1,0 +1,11 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: cloud-stream-source
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: 127.0.0.1:9876
+
