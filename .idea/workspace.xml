@@ -4,20 +4,403 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c249d26-98f8-42c3-bca4-7acc19d09f56" name="Changes" comment="[added] &quot;improveDemo&quot; Initial commit">
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/config/JpaConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/model/po/DepartmentPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/model/po/RolePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/model/po/UserPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueryDslDemo/src/test/java/com/cokepepsi/querydsldemo/jpatest/JpaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnnotationDemo" beforeDir="false" afterPath="$PROJECT_DIR$/AnnotationDemo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueryDslDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDslDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/QueryDslDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/java/com/cokepepsi/querydsldemo/QueryDslDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QueryDslDemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QueryDslDemo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketMQDemo" beforeDir="false" afterPath="$PROJECT_DIR$/RocketMQDemo" afterDir="false" />
+    <list default="true" id="5c249d26-98f8-42c3-bca4-7acc19d09f56" name="Changes" comment="[added] &quot;improveDemo&quot; fourth commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_stream_rocketmq_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_stream_binder_rocketmq_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_51.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_deepoove_poi_tl_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_sql_jdbc_stdext_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_acl_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_client_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_common_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_logging_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_remoting_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_spring_boot_starter_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_rocketmq_rocketmq_srvutil_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes2/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActivitiDemo/src/test/java/com/cokepepsi/activitidemo/passvalue/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ActivitiDemo/src/test/java/com/cokepepsi/activitidemo/passvalue/model/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__net_minidev_json_smart_2_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_6_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_spring_aop_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_spring_beans_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_spring_context_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_spring_core_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_spring_expression_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_springframework_spring_test_5_3_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/CokePepsiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/DesignPatternDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/bean/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/context/FilterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/context/FilterEnumContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/strategy/FilterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/strategy/impl/BlackAndWhiteFilterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/java/com/cokepepsi/designpattern/strategy/impl/VintageFilterStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/test/java/com/cokepepsi/designpattern/StrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/java/com/cokepepsi/springbootboy/SpringBootBoyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/java/com/cokepepsi/springbootboy/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/java/com/cokepepsi/springbootboy/bean/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/java/com/cokepepsi/springbootboy/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/java/com/cokepepsi/springbootboy/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/java/com/cokepepsi/springbootboy/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootBoy/src/test/java/com/cokepepsi/springbootboy/SpringBootBoyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink/src/main/java/com/cokepepsi/streamsink/consumer/IMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink/src/main/java/com/cokepepsi/streamsink/consumer/impl/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink01/src/main/java/com/cokepepsi/streamsink/StreamSinkApplication01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink01/src/main/java/com/cokepepsi/streamsink/consumer/IMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink01/src/main/java/com/cokepepsi/streamsink/consumer/impl/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink01/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSink01/src/test/java/com/cokepepsi/streamsource/StreamsourceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/client/SendMessageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/messaging/StreamSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/producer/IMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/producer/impl/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamSource/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_2_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_2_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_anno_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_anno_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_anno_api_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_anno_api_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_autoconfigure_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_autoconfigure_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_core_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_redis_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_redis_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_starter_redis_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alicp_jetcache_jetcache_starter_redis_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_android.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_android.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_14_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_24_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_12_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20220320.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20220320.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_6_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_4_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_4_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/annotation/AnnotationDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/annotation/extension/ExtensionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/annotation/extension/MyBeanFactoryPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/bean/Blue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/bean/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/bean/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/bean/Rainbow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/bean/Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/bean/Yellow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/condition/LinuxCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/condition/MyImportBeanDefinitionRegistrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/condition/MyImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/condition/WindowsCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/config/MainConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/config/MainConfig2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/config/MyTypeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/classes/com/cokepepsi/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/test-classes/com/cokepepsi/annotation/AnnotationDemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/test-classes/com/cokepepsi/annotation/IOCTest_Extension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnnotationDemo/target/test-classes/com/cokepepsi/test/IOCTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/QueryDslDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/config/JpaConfiguration$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/config/JpaConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/DepartmentPO$DepartmentPOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/DepartmentPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/RolePO$RolePOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/RolePO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/UserPO$UserPOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/UserPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/repository/DepartmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/test-classes/com/cokepepsi/querydsldemo/QueryDslDemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryDslDemo/target/test-classes/com/cokepepsi/querydsldemo/jpatest/JpaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamSink/src/main/java/com/cokepepsi/streamsource/StreamsourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamSink/src/main/java/com/cokepepsi/streamsink/StreamSinkApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamSink/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/StreamSink/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamSource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StreamSource/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/StreamsourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/StreamSourceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamSource/src/main/resources/application.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +408,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="AnnotationType" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -46,7 +437,7 @@
         <entry key="$PROJECT_DIR$/jetCacheDemo" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AnnotationDemo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
@@ -124,21 +515,6 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="dev" />
-                    <option name="lastUsedInstant" value="1695286914" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1695286913" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="dev" />
                     <option name="lastUsedInstant" value="1695352442" />
                   </RecentBranch>
                   <RecentBranch>
@@ -164,10 +540,37 @@
               </option>
               <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/ActivitiDemo" />
             </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1695375231" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1695375178" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
           </list>
         </option>
       </RecentBranches>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBinderConfigurationProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBindingProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream-binder-rabbit/3.0.3.RELEASE/spring-cloud-stream-binder-rabbit-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/rabbit/RabbitMessageChannelBinder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream/3.0.3.RELEASE/spring-cloud-stream-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/annotation/Output.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream/3.0.3.RELEASE/spring-cloud-stream-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/binder/AbstractMessageChannelBinder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream/3.0.3.RELEASE/spring-cloud-stream-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream/3.0.3.RELEASE/spring-cloud-stream-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-messaging/5.2.4.RELEASE/spring-messaging-5.2.4.RELEASE-sources.jar!/org/springframework/messaging/MessageChannel.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -175,7 +578,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\user\.m2\repository_143" />
+        <option name="mavenHome" value="D:/apache/apache-maven-3.8.1" />
         <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="C:\Users\user\.m2\settings_31.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -187,31 +593,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/improveDemo/RocketMQDemo",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15722656",
-    "project.structure.side.proportion": "0.26945412",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "d321ea97af1475a96df766fa1e39fdae"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/improveDemo&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15722656&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26945412&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8e95c8b5188e8e9cf0f847ccbcc2f244&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\improveDemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\improveDemo" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cokepepsi" />
       <recent name="com.cokepepsi.querydsldemo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cokepepsi.test" />
       <recent name="com.cokepepsi.bean" />
     </key>
   </component>
@@ -222,65 +640,66 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JpaTest.testJpaRepository">
-    <configuration name="ChangeItemEventTest.testChangeItemEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EventBusDemo" />
+  <component name="RunManager" selected="JUnit.StrategyTest.tesEnumStrategy">
+    <configuration name="PersonTest.testPassValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ActivitiDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cokepepsi.eventbusdemo.*" />
+          <option name="PATTERN" value="com.cokepepsi.activitidemo.passvalue.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cokepepsi.eventbusdemo" />
-      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.eventbusdemo.ChangeItemEventTest" />
-      <option name="METHOD_NAME" value="testChangeItemEvent" />
+      <option name="PACKAGE_NAME" value="com.cokepepsi.activitidemo.passvalue.model" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.activitidemo.passvalue.model.PersonTest" />
+      <option name="METHOD_NAME" value="testPassValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AnnotationDemo" />
+    <configuration name="StrategyTest.tesEnumStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cokepepsi.test.*" />
+          <option name="PATTERN" value="com.cokepepsi.designpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cokepepsi.test" />
-      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.test.IOCTest" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="PACKAGE_NAME" value="com.cokepepsi.designpattern" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.designpattern.StrategyTest" />
+      <option name="METHOD_NAME" value="tesEnumStrategy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QueryDslDemo" />
+    <configuration name="StrategyTest.testStaticStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cokepepsi.querydsldemo.jpatest.*" />
+          <option name="PATTERN" value="com.cokepepsi.designpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cokepepsi.querydsldemo.jpatest" />
-      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.querydsldemo.jpatest.JpaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.cokepepsi.designpattern" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.designpattern.StrategyTest" />
+      <option name="METHOD_NAME" value="testStaticStrategy" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testJpaRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QueryDslDemo" />
+    <configuration name="StrategyTest.testStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cokepepsi.querydsldemo.jpatest.*" />
+          <option name="PATTERN" value="com.cokepepsi.designpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cokepepsi.querydsldemo.jpatest" />
-      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.querydsldemo.jpatest.JpaTest" />
-      <option name="METHOD_NAME" value="testJpaRepository" />
+      <option name="PACKAGE_NAME" value="com.cokepepsi.designpattern" />
+      <option name="MAIN_CLASS_NAME" value="com.cokepepsi.designpattern.StrategyTest" />
+      <option name="METHOD_NAME" value="testStrategy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,9 +712,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AnnotationDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DesignPattern" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.annotation.AnnotationDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnnotationDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="AnnotationDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.annotation.AnnotationDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyExcelDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="EasyExcelDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.easyexceldemo.EasyExcelDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,13 +761,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootBoyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBootBoy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.springbootboy.SpringBootBoyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamSinkApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StreamSink01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.streamsink.StreamSinkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamSinkApplication01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="StreamSink01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.streamsink.StreamSinkApplication01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cokepepsi.streamsink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsourceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StreamSink" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.streamsource.StreamsourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StreamSource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cokepepsi.streamsource.StreamSourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StrategyTest.tesEnumStrategy" />
+      <item itemvalue="JUnit.StrategyTest.testStaticStrategy" />
+      <item itemvalue="JUnit.StrategyTest.testStrategy" />
+      <item itemvalue="JUnit.PersonTest.testPassValue" />
+      <item itemvalue="Spring Boot.AnnotationDemoApplication (1)" />
+      <item itemvalue="Spring Boot.SpringBootBoyApplication" />
+      <item itemvalue="Spring Boot.StreamSinkApplication (1)" />
+      <item itemvalue="Spring Boot.StreamsourceApplication" />
+      <item itemvalue="Spring Boot.StreamsourceApplication (1)" />
+      <item itemvalue="Spring Boot.EasyExcelDemoApplication" />
+      <item itemvalue="Spring Boot.ActivitiDemoApplication" />
+      <item itemvalue="Spring Boot.AnnotationDemoApplication" />
+      <item itemvalue="Spring Boot.EventBusDemoApplication" />
+      <item itemvalue="Spring Boot.JetCacheDemoApplication" />
+      <item itemvalue="Spring Boot.QueryDslDemoApplication" />
+      <item itemvalue="Spring Boot.RocketMqDemoApplication" />
+      <item itemvalue="Spring Boot.StreamSinkApplication01" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaTest.testJpaRepository" />
-        <item itemvalue="JUnit.JpaTest" />
-        <item itemvalue="JUnit.IOCTest.test04" />
-        <item itemvalue="JUnit.ChangeItemEventTest.testChangeItemEvent" />
-        <item itemvalue="JUnit.ChangeItemEventTest.testChangeItemEvent" />
+        <item itemvalue="JUnit.StrategyTest.tesEnumStrategy" />
+        <item itemvalue="JUnit.StrategyTest.testStaticStrategy" />
+        <item itemvalue="JUnit.StrategyTest.testStrategy" />
+        <item itemvalue="JUnit.PersonTest.testPassValue" />
+        <item itemvalue="Spring Boot.StreamSinkApplication01" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +853,63 @@
       <workItem from="1695288219824" duration="2756000" />
       <workItem from="1695296886699" duration="4792000" />
       <workItem from="1695302227540" duration="185000" />
-      <workItem from="1695352087409" duration="10201000" />
+      <workItem from="1695352087409" duration="10330000" />
+      <workItem from="1695375192937" duration="244000" />
+      <workItem from="1695375446467" duration="1078000" />
+      <workItem from="1695638878618" duration="8946000" />
+      <workItem from="1695717215744" duration="351000" />
+      <workItem from="1695717571512" duration="587000" />
+      <workItem from="1695718169311" duration="166000" />
+      <workItem from="1695718612171" duration="1015000" />
+      <workItem from="1695724948555" duration="8751000" />
+      <workItem from="1695774070283" duration="3000" />
+      <workItem from="1695867233338" duration="2945000" />
+      <workItem from="1695892894761" duration="1255000" />
+      <workItem from="1696661793809" duration="7362000" />
+      <workItem from="1696724933255" duration="402000" />
+      <workItem from="1696763112789" duration="4620000" />
+      <workItem from="1696811126891" duration="1384000" />
+      <workItem from="1696839632470" duration="709000" />
+      <workItem from="1696848576300" duration="5117000" />
+      <workItem from="1696934530173" duration="5355000" />
+      <workItem from="1697078327078" duration="3031000" />
+      <workItem from="1697107391019" duration="3092000" />
+      <workItem from="1697157344612" duration="596000" />
+      <workItem from="1697181057681" duration="1198000" />
+      <workItem from="1697416160249" duration="6043000" />
+      <workItem from="1697443971094" duration="3563000" />
+      <workItem from="1697502769409" duration="1143000" />
+      <workItem from="1697534864837" duration="7434000" />
+      <workItem from="1697619125149" duration="6771000" />
+      <workItem from="1698147215170" duration="4241000" />
+      <workItem from="1698219076180" duration="874000" />
+      <workItem from="1698220128442" duration="8000" />
+      <workItem from="1698231981031" duration="683000" />
+      <workItem from="1698233550567" duration="73000" />
+      <workItem from="1698279283380" duration="1855000" />
+      <workItem from="1698320088553" duration="5669000" />
+      <workItem from="1698664137504" duration="3576000" />
+      <workItem from="1698748628100" duration="7847000" />
+      <workItem from="1698921936452" duration="1206000" />
+      <workItem from="1698972115901" duration="140000" />
+      <workItem from="1699267014397" duration="1137000" />
+      <workItem from="1699316991324" duration="1206000" />
+      <workItem from="1699353111690" duration="5072000" />
+      <workItem from="1699404011202" duration="16000" />
+      <workItem from="1699497387362" duration="12181000" />
+      <workItem from="1699872479986" duration="928000" />
+      <workItem from="1699958700368" duration="780000" />
+      <workItem from="1699961165788" duration="2009000" />
+      <workItem from="1700112280640" duration="762000" />
+      <workItem from="1700180420633" duration="247000" />
+      <workItem from="1701863436529" duration="741000" />
+      <workItem from="1702636860604" duration="2104000" />
+      <workItem from="1702641085391" duration="555000" />
+      <workItem from="1702859255375" duration="52000" />
+      <workItem from="1702859318191" duration="28000" />
+      <workItem from="1702883423319" duration="1459000" />
+      <workItem from="1702884897705" duration="12160000" />
+      <workItem from="1702974773264" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="[added] &quot;RocketMQDemo&quot; Initial commit">
       <created>1695286839042</created>
@@ -383,7 +932,28 @@
       <option name="project" value="LOCAL" />
       <updated>1695302398361</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[added] &quot;improveDemo&quot; Second commit">
+      <created>1695717687654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695717687654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[added] &quot;improveDemo&quot; Third commit">
+      <created>1696766911006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696766911006</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[added] &quot;improveDemo&quot; fourth commit">
+      <created>1698410014534</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698410014534</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +964,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dev" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -404,38 +1001,228 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="improveDemo" />
+      <path value="$PROJECT_DIR$/ActivitiDemo" />
+      <path value="$PROJECT_DIR$/AnnotationDemo" />
+      <path value="$PROJECT_DIR$/EventBusDemo" />
+      <path value="$PROJECT_DIR$/QueryDslDemo" />
+      <path value="$PROJECT_DIR$/RocketMQDemo" />
+      <path value="$PROJECT_DIR$/jetCacheDemo" />
+      <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="[added] &quot;RocketMQDemo&quot; Initial commit" />
     <MESSAGE value="[added] &quot;improveDemo&quot; Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="[added] &quot;improveDemo&quot; Initial commit" />
+    <MESSAGE value="[added] &quot;improveDemo&quot; Second commit" />
+    <MESSAGE value="[added] &quot;improveDemo&quot; Third commit" />
+    <MESSAGE value="[added] &quot;improveDemo&quot; fourth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="[added] &quot;improveDemo&quot; fourth commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/EventBusDemo/src/main/java/com/cokepepsi/eventbusdemo/event/ChangeItemEventListener.java</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/EventBusDemo/src/main/java/com/cokepepsi/eventbusdemo/event/ChangeItemEventListener.java</url>
           <line>20</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/EventBusDemo/src/test/java/com/cokepepsi/eventbusdemo/ChangeItemEventTest.java</url>
           <line>43</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/EventBusDemo/src/test/java/com/cokepepsi/eventbusdemo/ChangeItemEventTest.java</url>
           <line>41</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AnnotationDemo/src/main/java/com/cokepepsi/annotation/CokePepsi.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/AnnotationDemo/src/test/java/com/cokepepsi/listener/TestEvent.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>552</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>896</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>359</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>402</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBinderConfigurationProperties.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBinderConfigurationProperties.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBindingProperties.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBindingProperties.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQBindingProperties.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/properties/RocketMQProducerProperties.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream/3.0.3.RELEASE/spring-cloud-stream-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream/3.0.3.RELEASE/spring-cloud-stream-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/producer/impl/MessageProducer.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/RocketMQMessageChannelBinder.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/RocketMQMessageChannelBinder.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/com/alibaba/cloud/spring-cloud-stream-binder-rocketmq/2.2.0.RELEASE/spring-cloud-stream-binder-rocketmq-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/stream/binder/rocketmq/RocketMQMessageChannelBinder.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/cloud/spring-cloud-stream/3.0.3.RELEASE/spring-cloud-stream-3.0.3.RELEASE-sources.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java</url>
+          <line>262</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>294</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" method="postProcessAfterInitialization">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java</url>
+          <line>78</line>
+          <properties class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator" method="initBeanFactory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/AnnotationDemo/src/main/java/com/cokepepsi/ext/MyBeanFactoryPostProcessor.java</url>
+          <line>16</line>
+          <properties class="com.cokepepsi.ext.MyBeanFactoryPostProcessor" method="postProcessBeanFactory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/AnnotationDemo/src/main/java/com/cokepepsi/ext/MyBeanDefinitionRegistryPostProcessor.java</url>
+          <line>15</line>
+          <properties class="com.cokepepsi.ext.MyBeanDefinitionRegistryPostProcessor" method="postProcessBeanDefinitionRegistry">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/AnnotationDemo/src/main/java/com/cokepepsi/ext/MyBeanDefinitionRegistryPostProcessor.java</url>
+          <line>24</line>
+          <properties class="com.cokepepsi.ext.MyBeanDefinitionRegistryPostProcessor" method="postProcessBeanFactory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java</url>
+          <line>56</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator" method="setBeanFactory">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/.m2/repository_143/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>243</line>
+          <properties class="org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator" method="postProcessBeforeInstantiation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/StreamSource/src/main/java/com/cokepepsi/streamsource/producer/impl/MessageProducer.java</url>
+          <line>23</line>
+          <properties field="streamOutput" class="com.cokepepsi.streamsource.producer.impl.MessageProducer" />
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Class" memberName="classLoader" />
         <PinnedItemInfo parentTag="org.springframework.core.type.StandardAnnotationMetadata" memberName="mergedAnnotations" />
       </pinned-members>
     </pin-to-top-manager>
@@ -443,5 +1230,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/improveDemo$IocLifeCycleTest_test01.ic" NAME="IocLifeCycleTest.test01 Coverage Results" MODIFIED="1695646691904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cokepepsi.test.*</FILTER>
+    </SUITE>
   </component>
 </project>

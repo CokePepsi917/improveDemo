@@ -7,31 +7,45 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="StreamSink01" />
+        <module name="EventBusDemo" />
+        <module name="jetCacheDemo" />
+        <module name="StreamSource" />
+        <module name="StreamSink" />
+        <module name="DesignPattern" />
         <module name="ActivitiDemo" />
         <module name="QueryDslDemo" />
         <module name="AnnotationDemo" />
-        <module name="EventBusDemo" />
         <module name="RocketMQDemo" />
-        <module name="jetCacheDemo" />
+        <module name="EasyExcelDemo" />
+        <module name="SpringBootBoy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ActivitiDemo" target="1.8" />
       <module name="AnnotationDemo" target="1.8" />
+      <module name="DesignPattern" target="1.8" />
+      <module name="EasyExcelDemo" target="1.8" />
       <module name="EventBusDemo" target="1.8" />
       <module name="improveDemo" target="1.8" />
       <module name="jetCacheDemo" target="1.8" />
       <module name="QueryDslDemo" target="1.8" />
-      <module name="RocketMQDemo" target="17" />
+      <module name="RocketMQDemo" target="1.8" />
+      <module name="SpringBootBoy" target="1.8" />
+      <module name="StreamSink" target="1.8" />
+      <module name="StreamSink01" target="1.8" />
+      <module name="StreamSource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ActivitiDemo" options="" />
-      <module name="AnnotationDemo" options="-parameters" />
+      <module name="AnnotationDemo" options="" />
+      <module name="EasyExcelDemo" options="" />
       <module name="EventBusDemo" options="" />
       <module name="QueryDslDemo" options="" />
-      <module name="RocketMQDemo" options="-parameters" />
+      <module name="RocketMQDemo" options="" />
+      <module name="SpringBootBoy" options="" />
       <module name="jetCacheDemo" options="" />
     </option>
   </component>

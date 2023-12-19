@@ -1,0 +1,184 @@
+<changelist name="Changes2" date="1695717760532" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes2/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/annotation/AnnotationDemoApplication.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/test-classes/com/cokepepsi/annotation/AnnotationDemoApplicationTests.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/bean/Blue.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/controller/BookController.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/dao/BookDao.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/service/BookService.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/bean/Color.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/DepartmentPO$DepartmentPOBuilder.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/DepartmentPO.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/repository/DepartmentRepository.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/annotation/extension/ExtensionConfig.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/test-classes/com/cokepepsi/test/IOCTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/test-classes/com/cokepepsi/annotation/IOCTest_Extension.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/config/JpaConfiguration$1.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/config/JpaConfiguration.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/test-classes/com/cokepepsi/querydsldemo/jpatest/JpaTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/condition/LinuxCondition.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/config/MainConfig.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/config/MainConfig2.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/MainTest.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/annotation/extension/MyBeanFactoryPostProcessor.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/condition/MyImportBeanDefinitionRegistrar.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/condition/MyImportSelector.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/config/MyTypeFilter.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/bean/Person.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/QueryDslDemoApplication.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/test-classes/com/cokepepsi/querydsldemo/QueryDslDemoApplicationTests.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/bean/Rainbow.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/bean/Red.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/RolePO$RolePOBuilder.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/RolePO.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/repository/RoleRepository.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/UserPO$UserPOBuilder.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/model/po/UserPO.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="QueryDslDemo/target/classes/com/cokepepsi/querydsldemo/repository/UserRepository.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="AnnotationDemo/target/classes/com/cokepepsi/condition/WindowsCondition.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

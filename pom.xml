@@ -21,6 +21,8 @@
         <module>StreamSource</module>
         <module>StreamSink</module>
         <module>EasyExcelDemo</module>
+        <module>StreamSink01</module>
+        <module>SpringBootBoy</module>
     </modules>
     <properties>
         <springfox.version>2.9.2</springfox.version>

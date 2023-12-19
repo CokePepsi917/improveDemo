@@ -9,7 +9,12 @@
         <option value="$PROJECT_DIR$/eventBusDemo/pom.xml" />
         <option value="$PROJECT_DIR$/RocketMQDemo/pom.xml" />
         <option value="$PROJECT_DIR$/ActivitiDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/QueryDslDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/EasyExcelDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/RocketMQDemo/streamsource/pom.xml" />
+        <option value="$PROJECT_DIR$/StreamSink/pom.xml" />
+        <option value="$PROJECT_DIR$/StreamSink01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootBoy/pom.xml" />
+        <option value="$PROJECT_DIR$/DesignPattern/pom.xml" />
       </list>
     </option>
   </component>

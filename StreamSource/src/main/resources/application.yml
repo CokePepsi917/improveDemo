@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: cloud-stream-source
+  cloud:
+    # Spring Cloud Stream 配置项, 对应BindingServiceProperties类
+    stream:
+      default-binder: rocketmq
+      # Binding配置项, 对应BindingProperties Map
+      bindings:
+        output:
+          destination: IMPROVEDEMO-TOPIC #目的地, 这里是RocketMQ 的 Topic
+          content-type: application/json #内容格式,这里使用JSON
+          group: cloud-stream-source-group-IMPROVEDEMO-TOPIC #消费者分组, 命名规则: 组名+topic
+        input:
+          destination: IMPROVEDEMO-TOPIC
+          content-type: application/json
+          group: cloud-stream-source-group-IMPROVEDEMO-TOPIC
+      # Spring Cloud Stream RocketMQ 配置项
+      rocketmq:
+        #RocketMQ Binder 配置项, 对应RocketMQBinderConfigurationProperties类
+        binder:
+          name-server: 192.168.11.250:9876 #RocketMQ namesrv地址
+        #RocketMQ 自定义配置项, 对应RocketMQBindingProperties Map
+        bindings:
+          output:
+            producer:
+              enabled: true
+              broadcasting: false
+            #RocketMQ Producer配置项, 对应RocketMQProducerProperties 类
+
+
+server:
+  port: 8802
